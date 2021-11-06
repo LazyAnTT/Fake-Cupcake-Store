@@ -1,5 +1,8 @@
 :root {
---primary:#666;
+--primary:#rgba(249, 228, 148, 0.5);
+--secondary:rgb(239, 121, 152);
+--white: #fff;
+--black: #000;
 }
 
 

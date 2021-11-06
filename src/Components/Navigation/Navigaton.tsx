@@ -1,6 +1,7 @@
-import './Navigation.scss';
 import Anchor from '../Anchors/Anchor';
 import NavigationItemList from '../../Data/NavigationItemList';
+
+import './Navigation.scss';
 
 const Navigation = () => (
   <div>
