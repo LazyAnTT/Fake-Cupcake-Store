@@ -1,0 +1,17 @@
+.button {
+  border: 1px solid var(--black);
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-color: var(--secondary);
+    color: var(--white);
+  }
+
+  &:focus {
+    outline-color: var(--secondary);    
+  }
+}

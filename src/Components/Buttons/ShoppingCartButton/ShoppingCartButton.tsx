@@ -1,21 +1,16 @@
 import './ShoppingCartButton.scss';
-import shoppingCartImage from '../../../Assets/Icons/shoppingCart.png';
+import shoppingCartImage from '../../Assets/Icons/shoppingCart.png';
 
 const ShoppingCartButton = () => (
-  <button
-    className="shopping-cart"
-  >
+  <button className="shopping-cart__button">
     <img
       src={shoppingCartImage}
       alt="Shopping cart icon"
       className="shopping-cart__icon"
     />
-    <p
-      className="shopping-cart__text"
-    >
+    <span className="shopping-cart__text">
       2 Items - $10.49
-    </p>
-
+    </span>
   </button>
 );
 

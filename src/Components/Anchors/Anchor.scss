@@ -1,0 +1,19 @@
+  .anchor {
+    list-style-type: none;
+    padding: 8px;
+    margin-right: 20px;
+    color: var(--secondary);
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+  
+    &:last-child {
+      margin-right: 0;
+    }
+  
+    &:hover {
+      color: var(--black);
+    }
+  }
+  

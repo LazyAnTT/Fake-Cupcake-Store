@@ -1,5 +1,5 @@
 import './PhoneNumber.scss';
-import phoneIcon from '../../Assets/Icons/phoneIcon.png';
+import phoneIcon from '../Assets/Icons/phoneIcon.png';
 
 const PhoneNumber = () => (
   <div
@@ -13,7 +13,7 @@ const PhoneNumber = () => (
     <p
       className="phone-number__text"
     >
-      666
+      666-666-666
     </p>
   </div>
 );

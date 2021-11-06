@@ -19,11 +19,11 @@
 }
 
 body {
-  color: var(--primary);
+  color: var(--black);
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(238, 238, 238);
+  background-color:  var(--primary);
 }
 
 code {
