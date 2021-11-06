@@ -2,11 +2,10 @@ import { FC } from 'react';
 import './Anchor.css';
 
 type AnchorProps = {
-    type?: 'string'
-    href: 'string' | '#'
+    href: string | '#'
 }
 
-const Anchor:FC<AnchorProps> = ({ type = 'string', href, children }) => (
+const Anchor:FC<AnchorProps> = ({ href, children }) => (
   <a href={href}>{children}</a>
 );
 
