@@ -1,9 +1,9 @@
-import React from 'react';
+import Header from '../Sections/Header/Header';
 
-const Header = () => (
+const Home = () => (
   <>
     <Header />
   </>
 );
 
-export default Header;
+export default Home;
