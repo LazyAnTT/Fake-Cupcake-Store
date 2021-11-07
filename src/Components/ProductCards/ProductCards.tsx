@@ -3,11 +3,11 @@ import { FC } from 'react';
 import ProductCard from '../ProductCard/ProductCard';
 import { ShopItems } from '../../Data/ProductList';
 
-type ProductCardSectionProps = {
+type ProductCardsProps = {
   products: ShopItems[]
 }
 
-const ProductCards:FC<ProductCardSectionProps> = ({ products }) => (
+const ProductCards:FC<ProductCardsProps> = ({ products }) => (
   <div className="product-section-wrapper">
     {products.map(({
       title, price, src, id,
