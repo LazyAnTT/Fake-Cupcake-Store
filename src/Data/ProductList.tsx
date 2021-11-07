@@ -11,7 +11,7 @@ const shopItems: ShopItems[] = [
     id: 1,
     title: 'sweet item',
     price: 5,
-    src: './Assets/Images/sweets-1.jpeg',
+    src: '../Assets/Images/sweets-1.jpeg',
     type: 'sweets',
   },
   {
