@@ -5,17 +5,18 @@ type ButtonProps = {
   type?: 'submit' | 'button'
   onClick?: () => void
   className?: string
+  title?: string
 }
 
 const Button:FC<ButtonProps> = ({
-  type = 'button', onClick, children, className,
+  type = 'button', onClick, children, className, title,
 }) => (
   <button
     onClick={onClick}
     type={type}
     className="button"
   >
-    {children}
+    {title}
   </button>
 );
 
