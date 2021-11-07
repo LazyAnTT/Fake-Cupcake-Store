@@ -1,15 +1,15 @@
-import './ProductFilterSection.scss';
+import './ProductFilterCards.scss';
 import { FC } from 'react';
 import ProductFilterByType from '../../../../Data/ProductFilterByType';
 import { ShopItems } from '../../../../Data/ProductList';
 import Button from '../../../../Components/Buttons/Button/Button';
 
-type ProductFilterSectionProps = {
+type ProductFilterCardsProps = {
   setProducts: (value: ShopItems[]) => void;
   allProducts: ShopItems[];
 }
 
-const ProductFilterSection:FC<ProductFilterSectionProps> = ({ setProducts, allProducts }) => {
+const ProductFilterCards:FC<ProductFilterCardsProps> = ({ setProducts, allProducts }) => {
   const clickHandler = (value: string) => {
     setProducts(allProducts.filter((product) => {
       if (value === 'all') {
@@ -30,4 +30,4 @@ const ProductFilterSection:FC<ProductFilterSectionProps> = ({ setProducts, allPr
   );
 };
 
-export default ProductFilterSection;
+export default ProductFilterCards;
