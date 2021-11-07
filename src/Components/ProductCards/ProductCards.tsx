@@ -1,10 +1,10 @@
 import './ProductCards.scss';
 import { FC } from 'react';
 import ProductCard from '../ProductCard/ProductCard';
-import { ShopItems } from '../../Data/ProductList';
+import { ProductItems } from '../../Data/ProductList';
 
 type ProductCardsProps = {
-  products: ShopItems[]
+  products: ProductItems[]
 }
 
 const ProductCards:FC<ProductCardsProps> = ({ products }) => (

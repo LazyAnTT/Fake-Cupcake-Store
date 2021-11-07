@@ -1,12 +1,12 @@
 import './ProductFilterCards.scss';
 import { FC } from 'react';
 import ProductFilterByType from '../../../../Data/ProductFilterByType';
-import { ShopItems } from '../../../../Data/ProductList';
+import { ProductItems } from '../../../../Data/ProductList';
 import Button from '../../../../Components/Buttons/Button/Button';
 
 type ProductFilterCardsProps = {
-  setProducts: (value: ShopItems[]) => void;
-  allProducts: ShopItems[];
+  setProducts: (value: ProductItems[]) => void;
+  allProducts: ProductItems[];
 }
 
 const ProductFilterCards:FC<ProductFilterCardsProps> = ({ setProducts, allProducts }) => {

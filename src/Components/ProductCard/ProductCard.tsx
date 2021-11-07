@@ -1,12 +1,12 @@
 import './ProductCard.scss';
 import { FC } from 'react';
-import { ShopItems } from '../../Data/ProductList';
+import { ProductItems } from '../../Data/ProductList';
 import Heading5 from '../Headings/Heading5/Heading5';
 
 type ProductCardProps = {
-    productName: ShopItems['title'];
-    src: ShopItems['src'];
-    price: ShopItems['price'];
+    productName: ProductItems['title'];
+    src: ProductItems['src'];
+    price: ProductItems['price'];
 }
 
 const ProductCard:FC<ProductCardProps> = ({ productName, src, price }) => (

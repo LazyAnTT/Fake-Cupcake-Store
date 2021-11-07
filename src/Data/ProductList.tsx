@@ -1,4 +1,4 @@
-interface ShopItems {
+interface ProductItems {
     id: number;
     title: string;
     price: number;
@@ -6,7 +6,7 @@ interface ShopItems {
     type: string;
   }
 
-const shopItems: ShopItems[] = [
+const productItems: ProductItems[] = [
   {
     id: 1,
     title: 'sweet item',
@@ -72,5 +72,5 @@ const shopItems: ShopItems[] = [
   },
 ];
 
-export { shopItems };
-export type { ShopItems };
+export { productItems };
+export type { ProductItems };
