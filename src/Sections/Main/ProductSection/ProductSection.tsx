@@ -3,7 +3,7 @@ import './ProductSection.scss';
 import { shopItems } from '../../../Data/ProductList';
 import Heading1 from '../../../Components/Headings/Heading1/Heading1';
 import ProductFilterSection from './ProductFilterSection/ProductFilterSection';
-import ProductCardSection from './ProductCardSection/ProductCardSection';
+import ProductCards from '../../../Components/ProductCards/ProductCards';
 
 const ProductSection:FC = () => {
   const [products, setProducts] = useState(shopItems);
@@ -13,7 +13,7 @@ const ProductSection:FC = () => {
       <div className="products__wrapper">
         <Heading1 normalPart="our" strongPart="store" />
         <ProductFilterSection setProducts={setProducts} allProducts={shopItems} />
-        <ProductCardSection products={products} />
+        <ProductCards products={products} />
       </div>
     </section>
   );
