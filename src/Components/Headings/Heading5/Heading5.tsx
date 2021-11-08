@@ -6,9 +6,9 @@ type Heading5Props = {
 }
 
 const Heading5:FC<Heading5Props> = ({ title }) => (
-  <h1 className="heading5">
+  <h5 className="heading5">
     {title}
-  </h1>
+  </h5>
 );
 
 export default Heading5;

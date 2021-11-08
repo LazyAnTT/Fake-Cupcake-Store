@@ -9,7 +9,7 @@ type AnchorProps = {
 const Anchor:FC<AnchorProps> = ({ href, children, className }) => (
   <a
     href={href}
-    className="anchor"
+    className={className}
   >
     {children}
   </a>
