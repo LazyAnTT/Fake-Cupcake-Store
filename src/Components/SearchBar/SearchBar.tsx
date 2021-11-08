@@ -6,7 +6,7 @@ type SearchBarProps = {
 }
 
 const SearchBar:FC<SearchBarProps> = ({ inputHandler }) => (
-  <input type="text" placeholder="item..." onChange={(event) => inputHandler(event)} className="products__search-bar" />
+  <input type="text" placeholder="SNACKS" onChange={(event) => inputHandler(event)} className="products__search-bar" />
 );
 
 export default SearchBar;
