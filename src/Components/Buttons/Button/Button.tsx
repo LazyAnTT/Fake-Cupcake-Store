@@ -3,15 +3,16 @@ import './Button.scss';
 
 type ButtonProps = {
   type?: 'submit' | 'button'
-  onClick?: () => void
+  clickHandler?: () => void
   title?: string
+  className?: string
 }
 
 const Button:FC<ButtonProps> = ({
-  type = 'button', onClick, title,
+  type = 'button', clickHandler, title, className,
 }) => (
   <button
-    onClick={onClick}
+    onClick={clickHandler}
     type={type}
     className="button"
   >

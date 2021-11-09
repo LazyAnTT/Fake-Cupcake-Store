@@ -12,6 +12,29 @@
   }
 
   &:focus {
-    outline-color: var(--secondary);    
+    outline-color: var(--secondary);
   }
+
+  &--cart {
+    outline: #000 solid 1px;
+
+    &:hover {
+      color: #fff;
+      background-color: var(--secondary);
+      border-color: var(--secondary);
+      outline: var(--secondary) solid 1px;
+    }
+  }
+
+  &--add-to-cart {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 16px 0 0 0;
+  }
+
+
 }

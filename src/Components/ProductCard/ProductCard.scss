@@ -6,9 +6,20 @@
   border-radius: 4px;
 
   &__image-wrapper {
+    position: relative;
     display: flex;
     overflow: hidden;
-    aspect-ratio: 1.34615;
+    aspect-ratio: 1.2;
+
+    &:hover {
+      .button--add-to-cart {
+        display: flex;
+      }
+
+      .product-card__image {
+        transform: scale(1.2);
+      }
+    }
   }
 
   &__image {
@@ -17,10 +28,6 @@
     width: 100%;
     cursor: pointer;
     transition: all 1s ease-in-out;
-  }
-
-  &__image:hover {
-    transform: scale(1.2);
   }
 
   &__info {

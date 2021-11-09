@@ -29,7 +29,7 @@ const ProductFilterCards:FC<ProductFilterCardsProps> = ({ setProducts, allProduc
     <div className="products__filter-button-container">
       {
           ProductFilterByType.map((name) => (
-            <Button key={name} title={name} onClick={() => { clickHandler(name); }} />
+            <Button key={name} title={name} clickHandler={() => { clickHandler(name); }} />
           ))
         }
       <SearchBar inputHandler={inputHandler} />
