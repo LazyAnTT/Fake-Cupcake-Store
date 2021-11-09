@@ -7,7 +7,7 @@ const Navigation = () => (
     <ul className="navigation__list">
       {NavigationItemList.map(({ name, href }) => (
         <li className="navigation__list">
-          <Anchor href={href}>{name}</Anchor>
+          <Anchor className="anchor" href={href}>{name}</Anchor>
         </li>
       ))}
     </ul>
