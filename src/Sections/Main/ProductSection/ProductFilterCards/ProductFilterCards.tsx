@@ -22,7 +22,7 @@ const ProductFilterCards:FC<ProductFilterCardsProps> = ({ setProducts, allProduc
 
   const inputHandler = (event: ChangeEvent<HTMLInputElement>) => {
     const inputValue = event.target.value;
-    inputFilter(inputValue);
+    inputFilter(inputValue.toLowerCase());
   };
 
   return (
