@@ -12,7 +12,13 @@ const Home = () => {
     <>
       <Header cart={cart} />
       <HeadingXmas color={color} setXmasTitlesColor={setXmasTitlesColor} xmasTitlesColorList={xmasTitlesColorList} />
-      <ProductSection cart={cart} setCart={setCart} />
+      <ProductSection
+        cart={cart}
+        setCart={setCart}
+        color={color}
+        xmasTitlesColorList={xmasTitlesColorList}
+        setXmasTitlesColor={setXmasTitlesColor}
+      />
 
     </>
   );

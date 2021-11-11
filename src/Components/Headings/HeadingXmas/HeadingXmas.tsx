@@ -14,7 +14,7 @@ const HeadingXmas:FC<HeadingXmasProps> = ({ color, xmasTitlesColorList, setXmasT
 
   useEffect(() => {
     const timeout = setTimeout(() => setXmasTitlesColor(xmasTitlesColorList.filter((item) => item
-      !== color)[Math.floor(Math.random() * 3)]), 10000);
+      !== color)[Math.floor(Math.random() * 3)]), 5000);
     return () => clearTimeout(timeout);
   });
 

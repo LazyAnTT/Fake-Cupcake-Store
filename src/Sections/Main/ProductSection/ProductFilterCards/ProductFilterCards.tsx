@@ -8,9 +8,14 @@ import SearchBar from '../../../../Components/SearchBar/SearchBar';
 type ProductFilterCardsProps = {
   setProducts: (value: ProductItems[]) => void;
   allProducts: ProductItems[];
+  color:string;
+  xmasTitlesColorList: string[];
+  setXmasTitlesColor: (value:string) => void;
 }
 
-const ProductFilterCards:FC<ProductFilterCardsProps> = ({ setProducts, allProducts }) => {
+const ProductFilterCards:FC<ProductFilterCardsProps> = ({
+  setProducts, allProducts, color, xmasTitlesColorList, setXmasTitlesColor,
+}) => {
   const clickHandler = (value: string) => {
     if (value === 'all') {
       return setProducts(allProducts);
