@@ -28,9 +28,6 @@ const ProductSection:FC<ProductSectionProps> = ({
       <ProductFilterCards
         setProducts={setProducts}
         allProducts={productItems}
-        color={color}
-        xmasTitlesColorList={xmasTitlesColorList}
-        setXmasTitlesColor={setXmasTitlesColor}
       />
       <ProductCards products={products} cart={cart} setCart={setCart} />
     </section>
