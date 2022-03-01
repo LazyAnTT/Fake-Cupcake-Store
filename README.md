@@ -1,4 +1,4 @@
-Sneak Peak:
+## Sneak peek
 <img src="https://github.com/LazyAnTT/React-Fake-Cupcake-Store/blob/main/public/Assets/Images/fake-cupcake-store-intro.png" style="width:700px;" />
 
 ## DEMO
