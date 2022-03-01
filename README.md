@@ -1,9 +1,13 @@
 Sneak Peak:
-<!-- <img src="https://github.com/LazyAnTT/Pig-game/blob/main/pig-game-intro.png" style="width:700px;" /> -->
+<!-- <img src="https://github.com/LazyAnTT/React-Fake-Cupcake-Store/blob/main/public/Assets/Images/fake-cupcake-store-intro.png" style="width:700px;" /> -->
 
 ## DEMO
 https://fake-cupcake-store.netlify.app/
 
+## Fake-Cupcake-Store functionality:
+    #add button (adds product to basket);
+    #search (filters products by name);
+    #category pills (filters products by category);
 
 # Getting Started with Create React App
 
