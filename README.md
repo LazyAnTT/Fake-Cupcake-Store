@@ -1,5 +1,5 @@
 Sneak Peak:
-<!-- <img src="https://github.com/LazyAnTT/React-Fake-Cupcake-Store/blob/main/public/Assets/Images/fake-cupcake-store-intro.png" style="width:700px;" /> -->
+<img src="https://github.com/LazyAnTT/React-Fake-Cupcake-Store/blob/main/public/Assets/Images/fake-cupcake-store-intro.png" style="width:700px;" />
 
 ## DEMO
 https://fake-cupcake-store.netlify.app/
